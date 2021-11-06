@@ -1,0 +1,484 @@
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/** Utility classes**/
+.underline
+{
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+ 
+}
+
+.aTags
+{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+.centerDivs
+{
+    margin: 0 auto;  
+
+}
+
+.grid 
+{
+    display:grid;
+}
+
+.gridTemp
+{
+    grid-template-columns: 150px 3fr;
+}
+
+.gridTemp1
+{
+    grid-template-columns: 1fr;
+}
+
+.gridTemp2
+{
+    grid-template-columns: 1fr .9fr;
+}
+.container
+{
+    max-width: 1280px;
+  
+} 
+
+.logo
+{
+    width:90px;
+    object-fit: cover;
+}
+
+
+
+
+header
+{
+    background-color: #fffc00;
+    position:sticky;
+    top:0px;
+    
+}
+
+header a
+{
+    font-weight:bolder;
+    font-size:1rem;
+    
+}
+
+
+header > div > h1
+{
+    padding: 6px 20px;
+
+}
+
+
+
+header > div:nth-child(1) > nav li
+{
+    display:inline-block;
+    padding:10px 25px;
+}
+
+header > div:nth-child(2) 
+{
+    background-color: white;
+    padding:25px 0;
+}
+
+header > div:nth-child(2) > nav li
+{
+    display:inline-block;
+    padding:10px 25px;
+}
+
+
+
+
+
+main >section:nth-child(1)
+{
+    background-image: url('../img/hero.jpg');
+    background-position:initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 51vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main >section:nth-child(1) > div
+{
+ 
+    
+    align-self:center;
+    justify-self: center;
+    color:white;
+}
+
+main >section:nth-child(1)  h1
+{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+
+main >section:nth-child(1)  a
+{
+    text-decoration: none;
+    margin-left: 105px;
+    color:black;
+    padding:15px 25px;
+    background-color: yellow;
+    border-radius: 30px 30px;
+    font-weight: 900;
+    font-size: 1rem;
+    
+}
+
+
+main >section:nth-child(2)
+{
+    text-align: center;
+  
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main >section:nth-child(2) > div
+{
+    background-color:#ffffff;
+   
+   margin: 0 auto;
+}
+
+main >section:nth-child(2) h2
+{
+    padding-top:50px;
+}
+
+
+main >section:nth-child(2) p
+{
+    padding: 20px 250px 70px 250px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    
+}
+
+
+#brand
+{
+    background-color: #f9f9f9;
+}
+#brandSection
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+   
+}
+
+#brandSection > h2
+{
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    padding:40px 40px
+}
+
+#brandSection  div
+{
+    
+    text-align: center;
+  
+    
+}
+
+#brandSection div:nth-child(3)
+{
+    
+    justify-self: center;
+}
+
+#brandSection div:nth-child(2)
+{
+   
+    justify-self: right;
+}
+
+
+
+#brandSection  div>img
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:90px
+}
+
+#brandSection  div>h3
+{
+    padding-bottom: 10px;
+}
+
+#brandSection  div>p
+{
+    padding:0 50px 80px 50px;
+}
+
+.snapGallary1 > div
+{
+   
+    margin: 0 auto;
+    
+}
+
+.snapGallaryGrid
+{
+    display:grid;
+    grid-template-columns: .9fr 1fr;
+}
+
+
+.snapGallaryContent
+{
+
+    justify-self: right;
+    width: 60%;
+    height: 30%;
+    align-self: center;
+
+}
+
+.snapGallaryContentLeft
+{
+
+    justify-self: left;
+    width: 60%;
+    height: 30%;
+    align-self: center;
+
+}
+
+.snapgallarycolor
+{
+    background-color:#f9f9f9; 
+}
+
+.snapGallaryH3
+{
+    padding-bottom:  5px;
+}
+
+.snapGallaryP
+{
+    padding:10px 20px 0 0;
+}
+
+.snapGallaryDiv2
+{
+    padding:60px 0px;
+}
+
+.snapGallaryDiv2Left
+{
+    padding:60px  60px;
+    text-align: right;
+    
+    
+}
+.snapGallaryImg
+{
+    width:590px;
+    border-radius: 20px 20px;
+    
+    
+}
+
+#Joinsnap
+{
+    background-color: #fffc00;
+   
+}
+
+#Joinsnap > div
+{
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+   
+    text-align: center;
+ 
+}
+
+#Joinsnap  h2
+{
+    font-size: 3rem;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+
+#Joinsnap a
+{
+    text-decoration: none;
+    color:black;
+    padding:15px 25px;
+    background-color: white;
+    border-radius: 40px 40px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#EEOstatement
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top:100px;
+    padding-bottom: 100px;
+   
+}
+
+#EEOstatement > div
+{
+    align-self: center;
+    justify-self: center;
+    padding: 5px 20px;
+}
+
+#EEOstatement > div h3
+{
+    padding-bottom: 10px;
+} 
+
+#EEOstatement > div p
+{
+    padding-top: 10px;
+}
+
+.underlineColor
+{
+    text-decoration: underline;
+    color:blue;
+}
+
+footer
+{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-top:.1px grey solid;
+}
+
+footer a
+{
+    text-decoration: none;
+    color:black;
+    font-weight: 800;
+    
+}
+
+footer li
+{
+    display: inline-block;
+    padding:15px 35px;
+}
+
+footer h2
+{
+    text-align: right;
+    padding-top: 15px;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+
+
+
+/** X-Large devices (large desktops, less than 1400px)  
+@media (max-width: 1399.98px) 
+{ 
+
+}
+
+**/
+/** Large devices (desktops, less than 1200px)  **/
+@media (max-width: 1199.98px)
+{
+
+}
+
+/** Medium devices (tablets, less than 992px)  **/
+@media (max-width: 991.98px) 
+{ 
+
+.snapGallaryImg
+{
+    width:390px;
+    border-radius: 20px 20px;
+    
+    
+}
+
+ 
+}
+
+
+/** Small devices (landscape phones, less than 768px) **/
+@media (max-width: 767.98px) 
+{
+
+    .gridTemp
+{
+    grid-template-columns: 120px 3fr;
+}
+
+    header > div > h1
+    {
+        padding: 6px 10px;
+    
+    }
+    
+    
+    
+    header > div:nth-child(1) > nav li
+    {
+        display:inline-block;
+        padding:10px 10px;
+    }
+    
+    header > div:nth-child(2) 
+    {
+        background-color: white;
+        padding:20px 0;
+    }
+    
+    header > div:nth-child(2) > nav li
+    {
+        display:inline-block;
+        padding:10px 15px;
+    }
+
+}
+
+
+
+/* X-Small devices (portrait phones, less than 576px) **/
+@media (max-width: 575.98px) 
+{
+
+}
+
+
+
+
